@@ -1,0 +1,46 @@
+{
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "login": {
+    "invalidEmail": "no.such.user.qa.demo.12345@example.com",
+    "invalidPassword": "WrongPassword!2026",
+    "errorPatterns": [
+      "incorrect",
+      "isn't connected",
+      "couldn't find",
+      "invalid"
+    ]
+  },
+  "signup": {
+    "firstName": "Demo",
+    "lastName": "Tester",
+    "emailOrMobile": "demo.tester.qa.12345@example.com",
+    "password": "DemoPass!2026",
+    "birthday": {
+      "day": 15,
+      "month": 6,
+      "year": 1995
+    },
+    "genderIndex": 1
+  },
+  "forgotPassword": {
+    "heading": "Find your account",
+    "lookupEmail": "no.such.user.qa.demo.12345@example.com"
+  },
+  "search": {
+    "query": "Playwright"
+  },
+  "profile": {
+    "tabs": ["Posts", "About", "Friends", "Photos"]
+  },
+  "users": {
+    "user1": {
+      "name": "Demo Tester",
+      "email": "demo.tester.qa.12345@example.com",
+      "role": "Tester",
+      "department": "QA"
+    }
+  }
+}
